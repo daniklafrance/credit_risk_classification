@@ -1,4 +1,4 @@
-# credit_risk_classification
+# Credit Risk Classification
 
 ## Description
 
@@ -82,8 +82,7 @@ If you do not recommend any of the models, please justify your reasoning.
 
 ## Authors
 
-Danik Lafrance
-[daniklafrance]([https://github.com/daniklafrance])
+Danik Lafrance https://github.com/daniklafrance
 
 ## References
 

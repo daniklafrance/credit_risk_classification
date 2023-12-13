@@ -74,11 +74,9 @@ Lastly, I repeated the above steps with resampled training data.
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Given the nature of the data (credit risk), we want our models to put an empasis on low false negatives. This means that the higher the recall for high-risk loans (1), the better our model is.
 
-If you do not recommend any of the models, please justify your reasoning.
+This is why I would recommend the Logistic Regression Model with Resampled Training Data. It has a recall score of 0.99 for high-risk loans (1) compared to 0.91 with the other model. 
 
 ## Authors
 

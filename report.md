@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Module 20 Report
 
 ## Overview of the Analysis
 
@@ -16,8 +16,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.

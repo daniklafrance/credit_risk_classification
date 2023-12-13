@@ -49,6 +49,7 @@ Lastly, I repeated the above steps with resampled training data.
 
 ## Results
 
+
 * Logistic Regression Model:
 
 |       | precision | recall | f1-score | support |
@@ -58,6 +59,8 @@ Lastly, I repeated the above steps with resampled training data.
 |accuracy|          |        |     0.99 |    19384|
 |macro avg|     0.92|    0.95|      0.94|    19384|
 |weighted avg|  0.99|    0.99|      0.99|    19384|
+
+
 
 * Logistic Regression Model with Resampled Training Data:
 

@@ -60,8 +60,9 @@ Lastly, I repeated the above steps with resampled training data.
 weighted avg       0.99      0.99      0.99     19384
 
 * Logistic Regression Model with Resampled Training Data:
-|       |precision|recall|f1-score|support|
-|---:   |:---:    |:---: |:---:   |:---:  |
+
+|       | precision | recall | f1-score | support |
+|------:|:---------:|:------:|:--------:|:-------:|
 | 0     |   1.00      0.99      1.00     18765
 |  1    |       0.84      0.99      0.91       619
 

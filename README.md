@@ -37,23 +37,37 @@ In this Challenge, you’ll use various techniques to train and evaluate a model
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The purpose of this analysis is to create a model that can accurately predict healthy loans and high-risk loans. 
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+The dataset was from over 75,000 loans. The information included the loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, total debt and loan status.
+
+Firstly, the y variable was set as the loan status column and the features were the all other columns.
+
+Then the data was split into training and testing sets. I then created a logistic regression model, fit the model, made predictions using the test data and evaluated the performance.
+
+Lastly, I repeated the above steps with resampled training data.
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+* Logistic Regression Model:
+              precision    recall  f1-score   support
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+           0       1.00      0.99      1.00     18765
+           1       0.85      0.91      0.88       619
 
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+    accuracy                           0.99     19384
+   macro avg       0.92      0.95      0.94     19384
+weighted avg       0.99      0.99      0.99     19384
+
+* Logistic Regression Model with Resampled Training Data:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00     18765
+           1       0.84      0.99      0.91       619
+
+    accuracy                           0.99     19384
+   macro avg       0.92      0.99      0.95     19384
+weighted avg       0.99      0.99      0.99     19384
 
 ## Summary
 
